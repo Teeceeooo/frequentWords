@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class WordService {
 
     public Map<String, Long> getTopFrequentWords(String text, int limit) {
-        List<String> words = Arrays.asList(text.toLowerCase().split("\\s+"));
+        List<String> words = Arrays.asList(text.toLowerCase().split("\\W+"));
 
         Map<String, Long> wordCount = words.stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
