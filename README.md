@@ -7,7 +7,9 @@ Syftet med denna applikation är att returnera de 10 mest frekventa orden från 
 <li>Maven</li>
 
 <h1>Installation - lokalt</h1>
-<li>Installera via git clone https://github.com/Teeceeooo/frequentWords.git</li>
+<li>Öppna cmd</li>
+<li>Navigera till där du vill installera. T.ex. cd c:/</li>
+<li>Kör kommandot: git clone https://github.com/Teeceeooo/frequentWords.git</li>
 <li>Öppna projektet i valfri IDE t.ex IntelliJ</li>
 <li>Kör programmet</li>
 
