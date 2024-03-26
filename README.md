@@ -21,5 +21,5 @@ Syftet med denna applikation är att returnera de 10 mest frekventa orden från 
 <h1>Användning via Postman</h1>
 <li>Gör en POST request mot http://localhost:8080/count</li>
 <li>Under Headers se till att det finns en key med namn Content-Type som har value text/plain</li>
-<li>Under Body sätter du in din text du vill analysera</li>
+<li>Under Body väljer du raw och sätter in din text du vill analysera</li>
 <li>Tryck send</li>
