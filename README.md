@@ -8,8 +8,8 @@ Syftet med denna applikation är att returnera de 10 mest frekventa orden från 
 
 <h1>Installation - lokalt</h1>
 <li>Installera via git clone https://github.com/Teeceeooo/frequentWords.git</li>
-<li>Öppna projektet i valfri IDE t.ex IntelliJ.</li>
-<li>Kör programmet.</li>
+<li>Öppna projektet i valfri IDE t.ex IntelliJ</li>
+<li>Kör programmet</li>
 
 <h1>Användning via curl</h1>
 <li>Öppna cmd eller PowerShell</li>
