@@ -12,7 +12,11 @@ Syftet med denna applikation är att returnera de 10 mest frekventa orden från 
 <li>Kör programmet.</li>
 
 <h1>Användning via curl</h1>
-I cmd/PowerShell använd kommandot: curl -H "Content-type: text/plain" -X "POST" -d "Insätt din text som du vill analysera här" http://localhost:8080/count
+<li>Öppna cmd eller PowerShell</li>
+<li>Om du vill analysera text med UTF-8 encoding, kör kommandot: chcp 65001</li>
+<li>För att analysera direkt kör kommandot: echo Insätt din text som du vill analysera här | curl -X POST -H "Content-Type: text/plain; charset=utf-8" --data-binary @- http://localhost:8080/count</li>
+<li>För att analysera via en .txt fil kör kommandot där du byter ut C:/lyrics.txt mot din sökväg samt filnamn: curl -X POST -H "Content-Type: text/plain; charset=utf-8" --data-binary "@C:/lyrics.txt" http://localhost:8080/count</li>
+<li>Notera att formatet du vill analysera måste vara ren text. Därför fungerar det inte att använda .docx som format. Om du vill använda .docx, måste du konvertera filen till ren text eller kopiera/klista in i ett .txt dokument.</li>
 
 <h1>Användning via Postman</h1>
 <li>Gör en POST request mot http://localhost:8080/count</li>
